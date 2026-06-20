@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <id>homepage</id>
+  <culture>en-US</culture>
+  <sysexts>
+    <sysext>
+      <name>luaext.xex</name>
+      <tag>LUAXZP</tag>
+    </sysext>
+    <sysext>
+      <name>afplayer.xex</name>
+      <tag>SWF</tag>
+    </sysext>
+  </sysexts>
+  <defaultchannelid>SPOTLIGHT</defaultchannelid>
+  <webreportingsampling>100</webreportingsampling>
+  <infomode>Gamertag</infomode>
+  <surface>yes</surface>
+  <channel>
+    <id>WELCOME</id>
+    <definitionpath>epix://welcome.xml</definitionpath>
+  </channel>
+  <channel>
+    <id>SPOTLIGHT</id>
+    <channeldef>
+      <description>Spotlight</description>
+      <type>online</type>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000010</initdata>
+        <epixid>b1db12b7-c1ea-4729-9444-68d26f2c1690</epixid>
+      </slot>
+      <epix>
+        <id>b1db12b7-c1ea-4729-9444-68d26f2c1690</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>S: Gears 3 Launch BDE</name>
+        <description>Gears of War 3 Now in Stores</description>
+        <description2>Plunge into the harrowing finale</description2>
+        <rating>40</rating>
+        <condition>EcoLiveTier(Silver)</condition>
+        <epixid>7d698baf-19a4-4c8b-890c-17de0e2a8aa5</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToEpixManifest</cmd>
+          <param>exp-gearsofwar.xml</param>
+          <param2>
+          </param2>
+        </onclick>
+      </slot>
+      <epix>
+        <id>7d698baf-19a4-4c8b-890c-17de0e2a8aa5</id>
+        <format>Video</format>
+        <path>http://epix.xbox.com/shaXam/0201/9e/20/9e20f3fd-48ad-43e2-825c-a1aa2183fd91.WMV?v=1#_420x320_FINAL_Titled.WMV</path>
+      </epix>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000016</initdata>
+        <epixid>8c0419c3-ec24-4969-afc1-08f857fde95b</epixid>
+      </slot>
+      <epix>
+        <id>8c0419c3-ec24-4969-afc1-08f857fde95b</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>Family Programming Switch</name>
+        <description>Family Programming</description>
+        <description2>Try it today and switch back anytime</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/f2/fa/f2fa5938-4e15-48d4-9642-4feabf8b678e.JPG?v=1#slot-FamilySwitch-EN-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToPamApp</cmd>
+          <param>dash.familyprogramming.xex</param>
+        </onclick>
+      </slot>
+    </channeldef>
+  </channel>
+  <channel>
+    <id>XBOX360</id>
+    <definitionpath>epix://xbox360channel.xml</definitionpath>
+  </channel>
+  <channel>
+    <id>GAME_MARKETPLACE</id>
+    <channeldef>
+      <description>Game Marketplace</description>
+      <type>online</type>
+      <slot>
+        <name>GOI: Forza 4 Season Pass</name>
+        <description>Forza 4 Season Pass</description>
+        <description2>Car pack download reminder</description2>
+        <rating>10</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/fa/02/fa0247cf-465b-422e-8606-a66a3050bbb8.JPG?v=1#slot-420x320-forza4decemberIGNpack-v1.JPG</shallowimg>
+        <condition>EcoGameOfferAvailable(1,4D530910,00000002,7F0FE9893B444147965258105D1D31C300BFA1A1)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToPicture</cmd>
+          <param>http://epix.xbox.com/shaXam/0201/ee/4c/ee4cba48-3b99-420c-bcae-de2e50adf13e.JPG?v=1#bg-forza4SPReminderBillboard-DecemberIGNPack-v3.JPG</param>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000011</initdata>
+        <epixid>4a5887c6-252c-4a5a-b40f-c9ee139c96f8</epixid>
+      </slot>
+      <epix>
+        <id>4a5887c6-252c-4a5a-b40f-c9ee139c96f8</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>CoD ELITE Billboard</name>
+        <description>Become a Founder</description>
+        <description2>Deadline extended to December 13</description2>
+        <rating>40</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/df/4f/df4f5fac-f1b8-4a3e-a2ed-caa5deb936a2.JPG?v=1#slot-codelitebillboard-v3.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToDashApp</cmd>
+          <param>http://epix.xbox.com/shaXam/0204/74/a0/74a01402-c3c3-4fcd-aa7c-f18c0c3c3f54.lzp?v=1#lzp-codelitebillboardLAUNCH-v9.lzp</param>
+          <param2>LUAXZP</param2>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000022</initdata>
+        <epixid>6cc3d506-ea32-47c2-b88f-0b64eb590198</epixid>
+      </slot>
+      <epix>
+        <id>6cc3d506-ea32-47c2-b88f-0b64eb590198</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>SesameStreet OUAM: New Chapter</name>
+        <description>Download the New Chapter</description>
+        <description2>Sesame Street: Once Upon a Monster</description2>
+        <rating>10</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/ea/54/ea5485b2-3270-4b4b-8e3f-1ab6cd0bc16e.JPG?v=1#slot-sesamestreetUFO-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToPamApp</cmd>
+          <param>Dash.MP.ProductDetails.lex</param>
+          <param2>IsContent=true;MediaId=66acd000-77fe-1000-9115-d8025752080c;ContentMediaId=64ad3dbc-528c-407c-bd45-d0a67976d700;ContentMediaTypeId=18</param2>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Batman AC - Skins Pack &amp; Adds</name>
+        <description>Batman: Arkham City</description>
+        <description2>Skins Pack and more</description2>
+        <rating>30</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/65/07/65071d79-969f-424a-836e-39d5a136878e.JPG?v=1#slot-420x320-BatmanAC-SkinsPack-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>TitleContentList</param>
+          <param2>66acd000-77fe-1000-9115-d80257520802</param2>
+          <param3>18</param3>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Dance Central 2 - All Songs</name>
+        <description>Dance Central 2</description>
+        <description2>Get your party started</description2>
+        <rating>30</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/96/ab/96abd2a6-c977-492c-a8cd-889d19ebc0eb.JPG?v=1#slot-DanceCentral2-v3.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>TitleContentList</param>
+          <param2>66acd000-77fe-1000-9115-d802373307d2</param2>
+          <param3>18</param3>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Game Library</name>
+        <description>Game Library</description>
+        <rating>267242991</rating>
+        <initdata>Game Library</initdata>
+        <epixid>3e24f828-b49f-4b19-935d-dc074cd55b99</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToGamesLibrary</cmd>
+        </onclick>
+      </slot>
+      <epix>
+        <id>3e24f828-b49f-4b19-935d-dc074cd55b99</id>
+        <format>EpixScene</format>
+        <path>EsGameLibrary</path>
+      </epix>
+    </channeldef>
+  </channel>
+  <channel>
+    <id>VIDEO_MARKETPLACE</id>
+    <channeldef>
+      <description>Video Marketplace</description>
+      <type>online</type>
+      <slot>
+        <name>Zune Nav LZP</name>
+        <description>Enjoy the Latest TV and Movies</description>
+        <description2>Buy, rent, watch instantly in 1080p HD</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/ed/c9/edc90ebb-6267-4993-8d82-99d4c6e3e4ba.JPG?v=2#slot-ZuneVideo2010-v1.JPG</shallowimg>
+        <epixid>ba59d2d6-e11b-43fd-9771-edc3cc768e54</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0004-0000-4000-8000-0000584807dc</param2>
+          <param3>-17957140</param3>
+          <param4>7BA933FEC98BDEF42BE7185E9717C2EB998FCA15</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <epix>
+        <id>ba59d2d6-e11b-43fd-9771-edc3cc768e54</id>
+        <format>LUAXZP</format>
+        <path>http://epix.xbox.com/shaXam/0204/01/6f/016ff429-39cb-45a5-b7af-73efc4582d1f.lzp?v=2#zunebde-v2.lzp</path>
+        <param>title=Enjoy the Latest TV and Movies;subtitle=Buy, rent, watch instantly in 1080p HD;contentType=video</param>
+      </epix>
+      <slot>
+        <name>ESPN</name>
+        <description>Watch Sports on Xbox</description>
+        <description2>Access 3,500+ events</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/ab/f7/abf7222c-cbe8-46d7-84ea-72091da4930b.JPG?v=1#slots-E3-ESPN-v2.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-0000584807f0</param2>
+          <param3>-17957140</param3>
+          <param4>C4A09C16B3DD1A9698D70592C42AFE252972C68058</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Netflix Launcher</name>
+        <description>Instantly Watch</description>
+        <description2>TV episodes and movies</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/6a/22/6a228e8b-f269-4425-aad5-46fcc273f446.JPG?v=1#slot-Netflix-2010.JPG</shallowimg>
+        <condition>EcoGameOfferAvailable(1,584807D5,00000002,E8D11591DFAD419FA9AE9B9AD286A09334AB98C7)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>00000003-0000-4000-8000-0000584807d5</param2>
+          <param3>-17957140</param3>
+          <param4>E8D11591DFAD419FA9AE9B9AD286A09334AB98C758</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Acquire Netflix</name>
+        <description>Try Netflix on Your Xbox</description>
+        <description2>Instantly watch movies</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/6a/22/6a228e8b-f269-4425-aad5-46fcc273f446.JPG?v=1#slot-Netflix-2010.JPG</shallowimg>
+        <condition>!EcoGameOfferAvailable(1,584807D5,00000002,E8D11591DFAD419FA9AE9B9AD286A09334AB98C7)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>DirectAcquireByOfferId</param>
+          <param2>00000003-0000-4000-8000-0000584807D5</param2>
+          <param3>0</param3>
+          <param4>0</param4>
+          <param5>0</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000012</initdata>
+        <epixid>156ca812-52fe-4e12-8057-e2d7f29def39</epixid>
+      </slot>
+      <epix>
+        <id>156ca812-52fe-4e12-8057-e2d7f29def39</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>AG: Hulu Plus Launch Slot</name>
+        <description>Try It Free</description>
+        <description2>Watch TV now</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/e9/51/e951d844-7b55-4a92-83c8-03703d097051.JPG?v=2#HuluPlus_v1.JPG</shallowimg>
+        <condition>!EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0002-0000-4000-8000-0000584807f7</param2>
+          <param3>-17957140</param3>
+          <param4>daa563af3fad603c67b46940766a1c1a7adf7691</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>S: Hulu Plus Launch Slot</name>
+        <description>Watch TV Now</description>
+        <description2>See your favorites anytime</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/e9/51/e951d844-7b55-4a92-83c8-03703d097051.JPG?v=2#HuluPlus_v1.JPG</shallowimg>
+        <condition>EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0002-0000-4000-8000-0000584807f7</param2>
+          <param3>-17957140</param3>
+          <param4>daa563af3fad603c67b46940766a1c1a7adf7691</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>S: NBC News</name>
+        <description>Stay Current with Daily News</description>
+        <description2>Upgrade to Gold to start watching</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/9f/6a/9f6a6f8d-f60d-4538-afc1-3f67d2e8f274.JPG?v=1#slots-NBCNews-v2.JPG</shallowimg>
+        <condition>EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcGoldUpgrade</cmd>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000019</initdata>
+        <epixid>b0a35475-5524-408c-bf6d-24a77316799e</epixid>
+      </slot>
+      <epix>
+        <id>b0a35475-5524-408c-bf6d-24a77316799e</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>Video Library Berlin Update</name>
+        <description>Video Library</description>
+        <rating>267242991</rating>
+        <epixid>5624e4d6-8dad-44e1-8a55-7a8adeea99c8</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToVideoLibrary</cmd>
+        </onclick>
+      </slot>
+      <epix>
+        <id>5624e4d6-8dad-44e1-8a55-7a8adeea99c8</id>
+        <format>EpixScene</format>
+        <path>EsVideoLibrary</path>
+      </epix>
+    </channeldef>
+  </channel>
+  <channel>
+    <id>MUSIC_MARKETPLACE</id>
+    <channeldef>
+      <description>Music Marketplace</description>
+      <type>online</type>
+      <slot>
+        <name>Zune Music LZP</name>
+        <description>Unlimited Music, No Ads</description>
+        <description2>Listen now with Zune Pass</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/b7/cc/b7ccf5eb-b7c8-4cd4-9989-f862075b6c73.JPG?v=3#slot-ZuneMusic2010-v1.JPG</shallowimg>
+        <epixid>c3fcdb41-18ed-48ae-b477-8dd90828295a</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0004-0000-4000-8000-0000584807dc</param2>
+          <param3>-17957140</param3>
+          <param4>7BA933FEC98BDEF42BE7185E9717C2EB998FCA15</param4>
+          <param5>00000002</param5>
+          <param6>MusicHomePage</param6>
+        </onclick>
+      </slot>
+      <epix>
+        <id>c3fcdb41-18ed-48ae-b477-8dd90828295a</id>
+        <format>LUAXZP</format>
+        <path>http://epix.xbox.com/shaXam/0204/01/6f/016ff429-39cb-45a5-b7af-73efc4582d1f.lzp?v=2#zunebde-v2.lzp</path>
+        <param>title=Unlimited Music, No Ads;subtitle=Listen now with Zune Pass;contentType=music</param>
+      </epix>
+      <slot>
+        <name>S: LastFM</name>
+        <description>Personalized Radio</description>
+        <description2>Try Last.fm for free</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/97/53/97534276-6f51-4712-8bb3-86abdea829e9.JPG?v=1#LastFM_s.JPG</shallowimg>
+        <condition>EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-0000584807e3</param2>
+          <param3>-17957140</param3>
+          <param4>E1140072D4F991B1E58F8618FF6075AD01B855C6</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>G: LastFM</name>
+        <description>Free Personalized Radio</description>
+        <description2>Exclusive for Gold members</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/97/53/97534276-6f51-4712-8bb3-86abdea829e9.JPG?v=1#LastFM_s.JPG</shallowimg>
+        <condition>!EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-0000584807e3</param2>
+          <param3>-17957140</param3>
+          <param4>E1140072D4F991B1E58F8618FF6075AD01B855C6</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000017</initdata>
+        <epixid>a4d74402-4ff2-4e86-9491-d8f485eee75a</epixid>
+      </slot>
+      <epix>
+        <id>a4d74402-4ff2-4e86-9491-d8f485eee75a</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>Music Library Berlin Update</name>
+        <description>Music Library</description>
+        <rating>267242991</rating>
+        <epixid>15abadce-5e26-4a10-abf2-c8c9218af725</epixid>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToMusicLibrary</cmd>
+        </onclick>
+      </slot>
+      <epix>
+        <id>15abadce-5e26-4a10-abf2-c8c9218af725</id>
+        <format>EpixScene</format>
+        <path>EsMusicLibrary</path>
+      </epix>
+    </channeldef>
+  </channel>
+  <channel>
+    <id>COMMUNITY</id>
+    <definitionpath>epix://communitychannel.xml</definitionpath>
+  </channel>
+  <channel>
+    <id>INSIDE_XBOX</id>
+    <channeldef>
+      <description>Inside Xbox</description>
+      <type>online</type>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000013</initdata>
+        <epixid>429dd2c0-40b2-4c83-80d5-96b9842e6666</epixid>
+      </slot>
+      <epix>
+        <id>429dd2c0-40b2-4c83-80d5-96b9842e6666</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000014</initdata>
+        <epixid>281516a2-7d28-4ce0-949a-6f5d43f4106a</epixid>
+      </slot>
+      <epix>
+        <id>281516a2-7d28-4ce0-949a-6f5d43f4106a</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+    </channeldef>
+  </channel>
+  <channel>
+    <id>MY_COMMUNITY</id>
+    <channeldef>
+      <description>My Community</description>
+      <type>online</type>
+      <slot>
+        <name>AMP: Call of Duty: MW3</name>
+        <description>Warfare Is Back</description>
+        <description2>Intimidate your enemies</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/14/28/1428dac6-f0cf-4991-b6d7-d787efe76eae.JPG?v=1#slot-CoDMW3updateNA-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcLaunchFromSystemPackage</cmd>
+          <param>AvatarEditor.xex</param>
+          <param2>title:urn:uuid:66acd000-77fe-1000-9115-d802415608cb</param2>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Paid Ad</name>
+        <rating>267242991</rating>
+        <boxstyle>transnograd</boxstyle>
+        <initdata>A190000015</initdata>
+        <epixid>eb3c51e5-b6c1-48ec-b5b8-f8d4c8b0f8be</epixid>
+      </slot>
+      <epix>
+        <id>eb3c51e5-b6c1-48ec-b5b8-f8d4c8b0f8be</id>
+        <format>EpixScene</format>
+        <path>EsAdvert</path>
+      </epix>
+      <slot>
+        <name>Kinect Fun Labs</name>
+        <description>Creative Fun with Kinect</description>
+        <description2>New Gadgets available now</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/1c/bd/1cbd0bd8-fbb6-45eb-8705-f5bdc42b8f69.JPG?v=1#KinectFunLabs_v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-000058480811</param2>
+          <param3>-17957140</param3>
+          <param4>386131be872eefdf71352f255d619343fba8c418</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Video Kinect</name>
+        <description>Video Chat on Your TV</description>
+        <description2>Connect with friends and family</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/eb/a2/eba2e4d0-5fa1-4dbb-98a6-1bde0179ae41.JPG?v=1#slots-E3-VideoKinect-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>00000001-0000-4000-8000-0000584807ec</param2>
+          <param3>-17957140</param3>
+          <param4>A7CFD4C7275FB78EDBAD6F2ABD9B8A75062E45EF58</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>S: Facebook</name>
+        <description>Facebook on Xbox</description>
+        <description2>Go Gold to start</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/27/4c/274c7e4f-6a43-4c6c-911d-1c0f0b1fb343.JPG?v=6#Facebook_420x320.JPG</shallowimg>
+        <condition>EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-0000584807e1</param2>
+          <param3>-17957140</param3>
+          <param4>E1E61DE6484AF3EC7220D728470907E679BE9C57</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>G: Facebook</name>
+        <description>Connect and Share with Friends</description>
+        <description2>Facebook on Xbox</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/27/4c/274c7e4f-6a43-4c6c-911d-1c0f0b1fb343.JPG?v=6#Facebook_420x320.JPG</shallowimg>
+        <condition>!EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>0ccf0001-0000-4000-8000-0000584807e1</param2>
+          <param3>-17957140</param3>
+          <param4>E1E61DE6484AF3EC7220D728470907E679BE9C57</param4>
+          <param5>00000002</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Halo Waypoint 11-28-2011</name>
+        <description>Enlist Today</description>
+        <description2>Manage your Halo career</description2>
+        <rating>40</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/46/01/4601acb9-ee81-40ac-ab5d-fb9cf319a4a9.JPG?v=1#slots-WaypointCarter-v1.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavMarketplaceScriptAction</cmd>
+          <param>LaunchMarketplaceContent</param>
+          <param2>f0000003-0000-4000-8000-00004d5308ce</param2>
+          <param3>40</param3>
+          <param4>28B081B26B53BF29C2120996D31A30FE4D</param4>
+          <param5>00007000</param5>
+        </onclick>
+      </slot>
+      <slot>
+        <name>S: Twitter</name>
+        <description>Read and Post Tweets</description>
+        <description2>Go Gold to start Tweeting</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/13/c6/13c6425a-4c66-4958-a4e1-38268e5e3f61.JPG?v=3#Twitter_s_v1.JPG</shallowimg>
+        <condition>EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToDashApp</cmd>
+          <param>http://epix.xbox.com/shaXam/0204/9a/18/9a18ed38-dd53-41db-a5b7-bfca22819bae.lzp?v=10#twitter.lzp</param>
+          <param2>LUAXZP</param2>
+        </onclick>
+      </slot>
+      <slot>
+        <name>G: Twitter</name>
+        <description>Share and Discover</description>
+        <description2>Read and post Tweets now</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/13/c6/13c6425a-4c66-4958-a4e1-38268e5e3f61.JPG?v=3#Twitter_s_v1.JPG</shallowimg>
+        <condition>!EcoLiveTier(Silver)</condition>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcNavToDashApp</cmd>
+          <param>http://epix.xbox.com/shaXam/0204/9a/18/9a18ed38-dd53-41db-a5b7-bfca22819bae.lzp?v=10#twitter.lzp</param>
+          <param2>LUAXZP</param2>
+          <param3>
+          </param3>
+        </onclick>
+      </slot>
+      <slot>
+        <name>Avatar Marketplace</name>
+        <description>Avatar Marketplace</description>
+        <description2>Avatar accessories and more</description2>
+        <rating>267242991</rating>
+        <shallowimg>http://epix.xbox.com/shaXam/0201/9f/8e/9f8e5424-c27b-42d0-9a34-7989e2d09d5d.JPG?v=2#AvatarMarketplaceSlot.JPG</shallowimg>
+        <onclick>
+          <button>A</button>
+          <helptext>Select</helptext>
+          <action>EpixCmd</action>
+          <cmd>EcLaunchFromSystemPackage</cmd>
+          <param>AvatarEditor.xex</param>
+          <param2>storelist:storefront</param2>
+        </onclick>
+      </slot>
+    </channeldef>
+  </channel>
+</manifest>
