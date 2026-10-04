@@ -5,7 +5,7 @@
 ## Layout — PARTIALLY CONFIRMED
 
 - 4 parts: header (BOOT-like), FAT, root cluster/data region. Sometimes “XTAF” from LE magic `XTAF`; derived/cleaned MS-DOS FAT. No on-media MFT; consumer (360 / FreeBSD `geom_xbox360`) knows offsets. Big-endian multibyte.
-- Entry 64 B: namelen @0x00 (0xE5 = deleted) / attrs @0x01 / name @0x02 (0x2A, 0x00/0xFF padded) / first cluster @0x2C / size @0x30 / cdate @0x34 / ctime @0x36 / wdate @0x38 / wtime @0x3A / atime @0x3C–0x3E. DOS-format time/date bits. No `.`/`..` (must remember parent cluster). `name.txt` UTF-16BE @0x2 holds volume label (volume bit unused). Filename charset/limits: 42-char max, 240 path, 4 GB file, 4096/dir, `[A-Za-z0-9 $.­_.]` per observed images.
+- Entry 64 B: namelen @0x00 (0xE5 = deleted) / attrs @0x01 / name @0x02 (0x2A, 0x00/0xFF padded) / first cluster @0x2C / size @0x30 / cdate @0x34 / ctime @0x36 / wdate @0x38 / wtime @0x3A / atime @0x3C–0x3E. DOS-format time/date bits. No `.`/`..` (must remember parent cluster). `name.txt` UTF-16BE @0x2 holds volume label (volume bit unused). Filename charset/limits: 42-char max, 240 path, 4 GB file, 4096/dir, `[A-Za-z0-9 $._]` per observed images.
 - Chainmap: offset = part offset + 0x1000; entry 2 B if clusters < 0xFFF0 else 4 B; size = entries×clusters; data area = chainmap end; cluster N offset = data + (N−1)×cluster size. Cluster sizes 4/8/16/32/64 KB (8/0x10/0x20/0x40/0x80 sectors/cluster).
 - Partition header @part+0: magic `XTAF`, ID, sectors/cluster, root cluster.
 

@@ -20,7 +20,7 @@ and to distinguish at every step what is:
 - `INFERRED` — reasonable deduction from observed behavior or secondary analysis, explicitly marked.
 - `UNCONFIRMED` / `UNKNOWN` — reported but not verified, or currently unknown.
 
-This repository is **not** an app, frontend, backend, SaaS, or product. It is a documentation and research repository. Code appears only as документаl aids: parsers, inspection scripts, clearly-marked pseudocode.
+This repository is **not** an app, frontend, backend, SaaS, or product. It is a documentation and research repository. Code appears only as documentation aids: parsers, inspection scripts, clearly-marked pseudocode.
 
 ## Repository
 

@@ -10,7 +10,7 @@
 
 ## InvoxiPlayGames/x360-research (“Emma’s Xbox 360 Research Notes”) — PARTIALLY CONFIRMED (search-verified, full read queued)
 
-`https://github.com/InvoxiPlayGames/x360-research` — personal reversing/research notes (own RE + other projects/fellow hackers), git-repo-as-wiki. Shoutouts: DrSchottky X360 tutorials (razielconsole), TEIR1plus2 Xbox-Reversing. Removal-request policy for homebrew authors noted. Topics include XUSB peripheral auth (“Xbox Security Method 3” per invoхi site snippet — UNCONFIRMED detail until read).
+`https://github.com/InvoxiPlayGames/x360-research` — personal reversing/research notes (own RE + other projects/fellow hackers), git-repo-as-wiki. Shoutouts: DrSchottky X360 tutorials (razielconsole), TEIR1plus2 Xbox-Reversing. Removal-request policy for homebrew authors noted. Topics include XUSB peripheral auth ("Xbox Security Method 3" per invoxi site snippet — UNCONFIRMED detail until read).
 
 ## How to use these here
 
