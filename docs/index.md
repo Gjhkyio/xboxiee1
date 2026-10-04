@@ -88,6 +88,14 @@
 
 - [RE tooling notes](reverse-engineering/re-tooling-notes.md)
 
+## 16. Store deepening + more hardware/formats (Cycle 4)
+
+- [Storefronts and content types](xbox-live/storefronts-content-types.md)
+- [Title/Media/Offer IDs](xbox-live/title-ids-media-ids.md)
+- [GDFX](filesystem/gdfx.md)
+- [USB ports and storage](hardware/usb-ports-storage.md)
+- [Kinect](peripherals/kinect.md)
+
 ---
 
 ## Planned (not yet created — do not link until files exist)
