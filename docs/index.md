@@ -68,8 +68,28 @@
 - [HDD module](storage/hdd-module.md)
 - [FATX filesystem](filesystem/fatx.md)
 
+## 12. System software (Cycle 3)
+
+- [Kernel versions and stack](system/kernel-versions-stack.md)
+
+## 13. Profiles and databases (Cycle 3)
+
+- [XDBF](profiles/xdbf.md)
+- [GPD](profiles/gpd.md)
+
+## 14. Xbox Live and Marketplace (Cycle 3)
+
+- [Catalog query API 2011, historical](xbox-live/marketplace-catalog-api-2011.md)
+- [Dashboard EPIX channels, historical RE](xbox-live/dashboard-epix-channels.md)
+- [Public services and hard boundaries](xbox-live/xbox-live-services-public.md)
+- [Marketplace closure 2024](xbox-live/marketplace-closure-2024.md)
+
+## 15. Reverse engineering (Cycle 3)
+
+- [RE tooling notes](reverse-engineering/re-tooling-notes.md)
+
 ---
 
 ## Planned (not yet created — do not link until files exist)
 
-Cycle 2+: southbridge, NAND, DVD, HDD, USB, Ethernet, audio/video, SMC, RF/POST, hypervisor, kernel, XAM, FATX/GDFX, XDBF/GPD, profiles/saves, Xbox Live, updates/errors, XDK/devkits, RE/emulation/tooling.
+Cycle 4+: USB, Ethernet, audio/video, SMC, RF, hypervisor ABI, kernel exports, XAM, GDFX/GDF, XConfig, saves, matchmaking/sockets, updates/errors, XDK/devkits, Xenia source walk.
