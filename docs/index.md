@@ -56,6 +56,18 @@
 - [Master sources](references/master-sources.md)
 - [Glossary](../glossary.md)
 
+## 10. Hardware I/O and debug (Cycle 2)
+
+- [Southbridge and I/O](hardware/southbridge-io.md)
+- [POST bus](hardware/post-bus.md)
+
+## 11. Storage and filesystems (Cycle 2)
+
+- [NAND flash system](storage/nand-flash-system.md)
+- [DVD drive](storage/dvd-drive.md)
+- [HDD module](storage/hdd-module.md)
+- [FATX filesystem](filesystem/fatx.md)
+
 ---
 
 ## Planned (not yet created — do not link until files exist)
